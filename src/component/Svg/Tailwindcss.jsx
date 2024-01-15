@@ -1,0 +1,37 @@
+const Tailwindcss = () => {
+    return (
+        <svg className='absolute translate-x-16 translate-y-5 z-[1]' width="115" height="115" viewBox="0 0 161 161" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_755_554)">
+                <g filter="url(#filter1_d_755_554)">
+                    <rect x="40.8984" y="36.2607" width="80" height="80" rx="40" fill="white" />
+                    <rect x="41.3984" y="36.7607" width="79" height="79" rx="39.5" stroke="white" />
+                </g>
+                <path d="M80.941 62.7505C75.0149 62.7505 71.3113 65.7127 69.8296 71.6366C72.0521 68.6744 74.6447 67.564 77.6075 68.3042C79.2981 68.7266 80.5064 69.9532 81.8441 71.3103C84.0227 73.5212 86.5442 76.0799 92.0524 76.0799C97.9779 76.0799 101.682 73.1177 103.163 67.1933C100.941 70.1555 98.3486 71.2664 95.3853 70.5262C93.6952 70.1038 92.487 68.8772 91.1492 67.52C88.9707 65.3092 86.4486 62.7505 80.941 62.7505ZM69.8296 76.0799C63.904 76.0799 60.1999 79.0421 58.7188 84.9666C60.9407 82.0043 63.5333 80.8934 66.4967 81.6342C68.1867 82.0571 69.395 83.2832 70.7327 84.6398C72.9113 86.8506 75.4334 89.4099 80.941 89.4099C86.8671 89.4099 90.5707 86.4477 92.0524 80.5232C89.8299 83.4855 87.2372 84.5964 84.2744 83.8556C82.5838 83.4338 81.3756 82.2066 80.0379 80.85C77.8593 78.6392 75.3378 76.0799 69.8296 76.0799Z" fill="#06B6D4" />
+            </g>
+            <defs>
+                <filter id="filter0_d_755_554" x="36.8984" y="36.2607" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_755_554" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_755_554" result="shape" />
+                </filter>
+                <filter id="filter1_d_755_554" x="0.898438" y="0.260742" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="20" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0367917 0 0 0 0 0.0348958 0 0 0 0 0.0484375 0 0 0 0.1 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_755_554" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_755_554" result="shape" />
+                </filter>
+            </defs>
+        </svg>
+    )
+}
+
+export default Tailwindcss

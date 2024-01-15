@@ -1,0 +1,40 @@
+const ReactJs = () => {
+    return (
+        <svg className='absolute -translate-x-5 translate-y-5 z-[3]' width="115" height="115" viewBox="0 0 160 161" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_755_571)">
+                <g filter="url(#filter1_d_755_571)">
+                    <rect x="40" y="36.2607" width="80" height="80" rx="40" fill="white" />
+                    <rect x="40.5" y="36.7607" width="79" height="79" rx="39.5" stroke="white" />
+                </g>
+                <path d="M80.2227 80.5001C82.6929 80.5001 84.6955 78.4976 84.6955 76.0274C84.6955 73.5572 82.6929 71.5547 80.2227 71.5547C77.7525 71.5547 75.75 73.5572 75.75 76.0274C75.75 78.4976 77.7525 80.5001 80.2227 80.5001Z" fill="#61DAFB" />
+                <path d="M80.2227 85.1906C93.4775 85.1906 104.223 81.0879 104.223 76.0269C104.223 70.966 93.4775 66.8633 80.2227 66.8633C66.9678 66.8633 56.2227 70.966 56.2227 76.0269C56.2227 81.0879 66.9678 85.1906 80.2227 85.1906Z" stroke="#61DAFB" stroke-width="3" />
+                <path d="M72.2844 80.6089C78.9118 92.0879 87.8374 99.3421 92.2203 96.8117C96.6032 94.2812 94.7837 82.9243 88.1562 71.4453C81.5288 59.9662 72.6032 52.712 68.2203 55.2425C63.8374 57.7729 65.6569 69.1299 72.2844 80.6089Z" stroke="#61DAFB" stroke-width="3" />
+                <path d="M72.2844 71.4452C65.6569 82.9242 63.8374 94.2812 68.2203 96.8116C72.6032 99.3421 81.5288 92.0879 88.1562 80.6088C94.7837 69.1298 96.6032 57.7729 92.2203 55.2424C87.8374 52.7119 78.9118 59.9662 72.2844 71.4452Z" stroke="#61DAFB" stroke-width="3" />
+            </g>
+            <defs>
+                <filter id="filter0_d_755_571" x="36" y="36.2607" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_755_571" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_755_571" result="shape" />
+                </filter>
+                <filter id="filter1_d_755_571" x="0" y="0.260742" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="20" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0367917 0 0 0 0 0.0348958 0 0 0 0 0.0484375 0 0 0 0.1 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_755_571" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_755_571" result="shape" />
+                </filter>
+            </defs>
+        </svg>
+    )
+}
+
+export default ReactJs
